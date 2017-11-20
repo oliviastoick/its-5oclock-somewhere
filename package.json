@@ -1,0 +1,23 @@
+{
+  "name": "its-5oclock-somewhere",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/oliviastoick/its-5oclock-somewhere.git",
+  "author": "Olivia Stoick <oliviastoick@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^7.3.2"
+  },
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js",
+  "debugger": "DEBUG=*:* nodemon server.js"
+}
+}
